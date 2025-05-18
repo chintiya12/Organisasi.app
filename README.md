@@ -52,9 +52,9 @@ Aplikasi ini mencakup total 27 organisasi, terdiri dari berbagai jenis:
 - Resimen Mahasiswa
 
 ## Struktur Proyek
-ormawa_app/
-├── main.py             # Program utama (entry point)
-├── menu.py             # Menampilkan dan mengelola menu
-├── organisasi.py       # Menyimpan data dan fungsi organisasi
-├── pendaftaran.py      # Menyimpan dan memproses data pendaftaran
-└── README.md           # Dokumentasi aplikasi
+- ormawa_app/
+- main.py             # Program utama (entry point)
+- menu.py             # Menampilkan dan mengelola menu
+- organisasi.py       # Menyimpan data dan fungsi organisasi
+- pendaftaran.py      # Menyimpan dan memproses data pendaftaran
+- README.md           # Dokumentasi aplikasi
