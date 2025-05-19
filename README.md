@@ -3,28 +3,36 @@ Aplikasi ini merupakan sistem informasi sederhana berbasis terminal (CLI) yang d
 
 ## 1. Pendahuluan
 ### 1.1 Tujuan
+Dokumen ini menyediakan spesifikasi kebutuhan perangkat lunak untuk Aplikasi Organisasi Mahasiswa, sebuah sistem berbasis konsol yang dirancang untuk membantu mahasiswa mengelola informasi organisasi kampus, mendaftar ke organisasi, dan melihat data pendaftar. Dokumentasi ini ditujukan untuk pengembang, pengguna, dan pemangku kepentingan lainnya.
 ### 1.2 Lingkup
+Aplikasi ini memungkinkan pengguna untuk:
+- Melihat daftar organisasi mahasiswa yang tersedia.
+- Mengakses informasi detail tentang setiap organisasi, termasuk deskripsi dan kontak.
+- Mendaftar ke organisasi yang dipilih.
+- Melihat daftar pendaftar yang telah mendaftar ke berbagai organisasi.
+Aplikasi ini berjalan pada lingkungan Python dan menggunakan antarmuka berbasis teks (CLI).
 ### 1.3 Definisi dan Istilah
-
+- **Ormawa**: Organisasi Mahasiswa, seperti BEM dan MPM.
+- **UKM**: Unit Kegiatan Mahasiswa, seperti Seni Tari atau Bulu Tangkis.
+- **CLI**: Command Line Interface, antarmuka berbasis teks untuk interaksi pengguna.
 ---
 
 ## 2. Deskripsi Umum
+### 2.1 Latar Belakang
 Aplikasi ini dikembangkan untuk mempermudah mahasiswa dalam mencari informasi tentang organisasi kampus dan mendaftar ke organisasi pilihan mereka. Sistem ini mengelola data organisasi dan pendaftar secara lokal dalam memori selama aplikasi berjalan.
 
-### 2.1 Fungsi Utama Sistem
-Aplikasi CLI untuk pengelolaan informasi dan pendaftaran organisasi kampus oleh mahasiswa.
+### 2.2 Perspektif Pengguna
+Pengguna utama adalah mahasiswa yang ingin menjelajahi organisasi kampus, mempelajari detailnya, dan mendaftar. Aplikasi ini juga dapat digunakan oleh pengelola organisasi untuk melihat daftar pendaftar.
 
-### 2.2 Lingkungan Pengembangan
+### 2.3 Lingkungan Pengembangan
 - Python 3.x
 - Platform: Linux, macOS, Windows
 - Text editor: VSCode
 
-### 2.3 Asumsi & Ketergantungan
-- Data tidak disimpan ke database, hanya disimpan sementara di memori
-- Input pengguna dilakukan secara manual melalui terminal
-
-### 2.4 Perspektif Pengguna
-Pengguna utama adalah mahasiswa yang ingin menjelajahi organisasi kampus, mempelajari detailnya, dan mendaftar. Aplikasi ini juga dapat digunakan oleh pengelola organisasi untuk melihat daftar pendaftar.
+### 2.4 Asumsi & Ketergantungan
+- Pengguna memiliki pengetahuan dasar tentang penggunaan aplikasi berbasis konsol.
+- Python 3.x terinstal di sistem pengguna.
+- Tidak ada ketergantungan eksternal (library) di luar modul standar Python.
 
 ---
 
@@ -60,35 +68,6 @@ Pengguna utama adalah mahasiswa yang ingin menjelajahi organisasi kampus, mempel
 3. Daftar ke organisasi
 4. Lihat data pendaftar
 5. Keluar## Pendahuluan
-
-### Tujuan
-Dokumen ini menyediakan spesifikasi kebutuhan perangkat lunak untuk Aplikasi Organisasi Mahasiswa, sebuah sistem berbasis konsol yang dirancang untuk membantu mahasiswa mengelola informasi organisasi kampus, mendaftar ke organisasi, dan melihat data pendaftar. Dokumentasi ini ditujukan untuk pengembang, pengguna, dan pemangku kepentingan lainnya.
-
-### Ruang Lingkup
-Aplikasi ini memungkinkan pengguna untuk:
-- Melihat daftar organisasi mahasiswa yang tersedia.
-- Mengakses informasi detail tentang setiap organisasi, termasuk deskripsi dan kontak.
-- Mendaftar ke organisasi yang dipilih.
-- Melihat daftar pendaftar yang telah mendaftar ke berbagai organisasi.
-Aplikasi ini berjalan pada lingkungan Python dan menggunakan antarmuka berbasis teks (CLI).
-
-### Definisi dan Akronim
-- **Ormawa**: Organisasi Mahasiswa, seperti BEM dan MPM.
-- **UKM**: Unit Kegiatan Mahasiswa, seperti Seni Tari atau Bulu Tangkis.
-- **CLI**: Command Line Interface, antarmuka berbasis teks untuk interaksi pengguna.
-
-## Deskripsi Umum
-
-### Latar Belakang
-Aplikasi ini dikembangkan untuk mempermudah mahasiswa dalam mencari informasi tentang organisasi kampus dan mendaftar ke organisasi pilihan mereka. Sistem ini mengelola data organisasi dan pendaftar secara lokal dalam memori selama aplikasi berjalan.
-
-### Perspektif Pengguna
-Pengguna utama adalah mahasiswa yang ingin menjelajahi organisasi kampus, mempelajari detailnya, dan mendaftar. Aplikasi ini juga dapat digunakan oleh pengelola organisasi untuk melihat daftar pendaftar.
-
-### Asumsi dan Ketergantungan
-- Pengguna memiliki pengetahuan dasar tentang penggunaan aplikasi berbasis konsol.
-- Python 3.x terinstal di sistem pengguna.
-- Tidak ada ketergantungan eksternal (library) di luar modul standar Python.
 
 ## Kebutuhan Fungsional
 
