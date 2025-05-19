@@ -3,7 +3,7 @@ Aplikasi ini merupakan sistem informasi sederhana berbasis terminal (CLI) yang d
 
 ## 1. Pendahuluan
 ### 1.1 Tujuan
-Dokumen ini menyediakan spesifikasi kebutuhan perangkat lunak untuk Aplikasi Organisasi Mahasiswa, sebuah sistem berbasis konsol yang dirancang untuk membantu mahasiswa mengelola informasi organisasi kampus, mendaftar ke organisasi, dan melihat data pendaftar. Dokumentasi ini ditujukan untuk pengembang, pengguna, dan pemangku kepentingan lainnya.
+Tujuan dari proyek ini adalah untuk mengembangkan sebuah sistem informasi berbasis terminal yang memfasilitasi proses pendaftaran organisasi mahasiswa secara lebih mudah dan terstruktur. Sistem ini dirancang agar mahasiswa dapat dengan cepat melihat daftar seluruh organisasi yang tersedia di kampus, mengakses informasi detail mengenai masing-masing organisasi, serta melakukan pendaftaran secara langsung melalui antarmuka baris perintah (CLI). Selain itu, sistem ini juga menyediakan fitur khusus bagi admin untuk melihat dan mengelola daftar seluruh mahasiswa yang telah mendaftar ke berbagai organisasi. Dengan adanya sistem ini, proses sosialisasi dan pendaftaran organisasi menjadi lebih efisien, transparan, dan terdokumentasi dengan baik.
 
 ### 1.2 Lingkup
 Aplikasi ini memungkinkan pengguna untuk:
@@ -17,7 +17,7 @@ Aplikasi ini berjalan pada lingkungan Python dan menggunakan antarmuka berbasis 
 | Istilah | Penjelasan |
 |--------|-------------|
 | Ormawa | Organisasi Mahasiswa |
-| UKM | Unit Kegiatan Mahasiswa, seperti Seni Tari, Futsal, Bulu Tangkis, dsb.
+| UKM | Unit Kegiatan Mahasiswa |
 | CLI | Command Line Interface |
 | NIM | Nomor Induk Mahasiswa |
 ---
