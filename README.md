@@ -74,16 +74,14 @@ Pengguna utama adalah mahasiswa yang ingin menjelajahi organisasi kampus, mempel
 4. Lihat data pendaftar
 5. Keluar
 
-## Kebutuhan Fungsional
-
-### Fitur Aplikasi
+### 6. Fitur Aplikasi
 Aplikasi ini memiliki fitur berikut:
 - **Menampilkan daftar organisasi mahasiswa**: Menampilkan semua organisasi yang tersedia dalam format bernomor.
 - **Melihat informasi detail setiap organisasi**: Menampilkan deskripsi dan kontak organisasi berdasarkan nama yang dimasukkan pengguna.
 - **Melakukan pendaftaran ke organisasi yang dipilih**: Memungkinkan pengguna mendaftar dengan memasukkan nama mereka dan nama organisasi.
 - **Melihat daftar seluruh pendaftar**: Menampilkan daftar pendaftar beserta organisasi yang mereka daftar.
 
-### Daftar Organisasi
+### 7. Daftar Organisasi
 Aplikasi ini mencakup total 27 organisasi, terdiri dari berbagai jenis:
 
 #### Ormawa
@@ -125,7 +123,7 @@ Aplikasi ini mencakup total 27 organisasi, terdiri dari berbagai jenis:
 - **MAPALA**: Pendakian dan pelestarian lingkungan.
 - **Resimen Mahasiswa**: Kedisiplinan dan kepemimpinan semi-militer.
 
-### Alur Fungsional
+### 8. Alur Fungsional
 1. **Menampilkan Menu**: Pengguna melihat menu utama dengan 5 pilihan.
 2. **Lihat Daftar Organisasi**: Menampilkan daftar 27 organisasi.
 3. **Lihat Informasi Organisasi**: Pengguna memasukkan nama organisasi, dan sistem menampilkan deskripsi dan kontak.
@@ -133,7 +131,7 @@ Aplikasi ini mencakup total 27 organisasi, terdiri dari berbagai jenis:
 5. **Lihat Daftar Pendaftar**: Menampilkan semua pendaftar atau pesan jika belum ada.
 6. **Keluar**: Menghentikan aplikasi.
 
-## Kebutuhan Non-Fungsional
+## 9. Kebutuhan Non-Fungsional
 
 ### Kinerja
 - Aplikasi harus merespons input pengguna dalam waktu kurang dari 1 detik.
@@ -151,7 +149,7 @@ Aplikasi ini mencakup total 27 organisasi, terdiri dari berbagai jenis:
 - Antarmuka teks jelas dan mudah dipahami oleh pengguna non-teknis.
 - Pesan error informatif (misalnya, "Organisasi tidak ditemukan").
 
-## Antarmuka Sistem
+## 10. Antarmuka Sistem
 
 ### Antarmuka Pengguna
 - **Tipe**: Command Line Interface (CLI).
@@ -165,7 +163,7 @@ Aplikasi ini mencakup total 27 organisasi, terdiri dari berbagai jenis:
 - Ditulis dalam Python 3.x.
 - Tidak memerlukan library eksternal.
 
-## Installation Guide
+## 11. Installation Guide
 
 1. **Prasyarat**:
    - Instal Python 3.x dari [python.org](https://www.python.org).
@@ -183,7 +181,7 @@ Aplikasi ini mencakup total 27 organisasi, terdiri dari berbagai jenis:
      ```
    - Aplikasi akan menampilkan menu utama.
 
-## Operating Procedures
+## 12. Operating Procedures
 
 1. **Memulai Aplikasi**:
    - Jalankan `python main.py` di terminal.
@@ -200,7 +198,7 @@ Aplikasi ini mencakup total 27 organisasi, terdiri dari berbagai jenis:
    - Pilih `4` untuk melihat daftar pendaftar.
    - Pilih `5` untuk keluar.
 
-## Error Messages and Troubleshooting
+## 13. Error Messages and Troubleshooting
 
 ### Pesan Error Umum
 - **"Pilihan tidak valid."**:
